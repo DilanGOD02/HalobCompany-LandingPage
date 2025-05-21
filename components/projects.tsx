@@ -54,24 +54,15 @@ export default function Projects() {
     },
     {
       id: 5,
-      title: "Plataforma Educativa",
-      description: "Sistema de gestión de aprendizaje con cursos, evaluaciones y certificaciones.",
-      image: "/placeholder.svg?height=400&width=600",
+      title: "Plataforma de citas LUV",
+      description: "Plataforma interactiva de citas, para conocer personas y encontrar pareja.",
+      image: "/images/luv.png?height=400&width=600",
       category: "web",
-      technologies: ["Angular", "Django", "PostgreSQL", "AWS"],
+      technologies: ["PHP", "AJAX", "MySQL"],
       link: "#",
       github: "#",
     },
-    {
-      id: 6,
-      title: "App de Finanzas Personales",
-      description: "Aplicación para control de gastos, presupuestos y seguimiento de inversiones.",
-      image: "/placeholder.svg?height=400&width=600",
-      category: "mobile",
-      technologies: [".Net", "SQL Server", "kotlin", "Swagger"],
-      link: "#",
-      github: "#",
-    },
+
   ]
 
   const categories = [
