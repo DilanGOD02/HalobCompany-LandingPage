@@ -66,7 +66,7 @@ export default function Contact() {
       icon: <Phone className="h-6 w-6 text-blue-500" />,
       title: "Teléfono",
       details: "+506 8895-5772",
-      link: "tel:+12345678901",
+      link: "tel:+50688955772",
     },
     {
       icon: <MapPin className="h-6 w-6 text-purple-500" />,

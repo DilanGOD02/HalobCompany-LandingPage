@@ -16,29 +16,29 @@ export default function Projects() {
       title: "E-commerce Platform",
       description:
         "Plataforma de comercio electrónico completa con carrito de compras y panel de administración.",
-    
+      image: "/images/carniceria.png?height=400&width=600",
       category: "web",
-      technologies: ["React", "Node.js", "MongoDB", "Stripe"],
-      link: "#",
+      technologies: ["React", "Spring boot", "MySQL"],
+      link: "https://github.com/Glend-2003/Frontend-Carniceria-La-Bendicion",
       github: "#",
     },
     {
       id: 2,
       title: "Aplicación de Gestión",
-      description: "Sistema de gestión empresarial para control de inventario, clientes y facturación.",
-      image: "/placeholder.svg?height=400&width=600",
+      description: "Sistema de gestión agricola, para control de inventario, clientes y productos.",
+      image: "/images/logo.jpeg?height=400&width=600",
       category: "web",
-      technologies: ["Vue.js", "Express", "PostgreSQL", "Docker"],
+      technologies: ["React.js", "Java", "JPA", "MySQL"],
       link: "#",
       github: "#",
     },
     {
       id: 3,
-      title: "App de Delivery",
-      description: "Aplicación móvil para servicio de entrega a domicilio con seguimiento en tiempo real.",
-      image: "/placeholder.svg?height=400&width=600",
+      title: "Biblioteca Web",
+      description: "Aplicación web para gestionar el prestamo de libros, socios, multas, etc.",
+      image: "/images/libreria.png?height=400&width=600",
       category: "mobile",
-      technologies: ["React Native", "Firebase", "Google Maps API"],
+      technologies: ["Spring boot", "JPA", "SQL Server"],
       link: "#",
       github: "#",
     },
@@ -46,9 +46,9 @@ export default function Projects() {
       id: 4,
       title: "Dashboard Analítico",
       description: "Panel de control para visualización de datos empresariales con gráficos interactivos.",
-      image: "/placeholder.svg?height=400&width=600",
+      image: "/images/graficos.JPG?height=400&width=600",
       category: "dashboard",
-      technologies: ["Next.js", "D3.js", "Tailwind CSS", "Supabase"],
+      technologies: ["React.js", "Tailwind CSS", "Supabase"],
       link: "#",
       github: "#",
     },
@@ -68,7 +68,7 @@ export default function Projects() {
       description: "Aplicación para control de gastos, presupuestos y seguimiento de inversiones.",
       image: "/placeholder.svg?height=400&width=600",
       category: "mobile",
-      technologies: ["Flutter", "Node.js", "MongoDB", "Chart.js"],
+      technologies: [".Net", "SQL Server", "kotlin", "Swagger"],
       link: "#",
       github: "#",
     },
@@ -164,27 +164,8 @@ export default function Projects() {
                   ))}
                 </CardContent>
                 <CardFooter className="flex justify-between mt-auto">
-                  <Button
-                    variant="outline"
-                    size="sm"
-                    className="border-blue-500 text-blue-400 hover:bg-blue-500/10"
-                    asChild
-                  >
-                    <a href={project.github} target="_blank" rel="noopener noreferrer">
-                      <Github className="mr-2 h-4 w-4" />
-                      Código
-                    </a>
-                  </Button>
-                  <Button
-                    size="sm"
-                    className="bg-gradient-to-r from-blue-600 to-purple-600 hover:from-blue-700 hover:to-purple-700"
-                    asChild
-                  >
-                    <a href={project.link} target="_blank" rel="noopener noreferrer">
-                      <ExternalLink className="mr-2 h-4 w-4" />
-                      Demo
-                    </a>
-                  </Button>
+      
+             
                 </CardFooter>
               </Card>
             </motion.div>
@@ -194,3 +175,16 @@ export default function Projects() {
     </section>
   )
 }
+
+
+           /* <Button
+                    variant="outline"
+                    size="sm"
+                    className="border-blue-500 text-blue-400 hover:bg-blue-500/10"
+                    asChild
+                  >
+                    <a href={project.github} target="_blank" rel="noopener noreferrer">
+                      <Github className="mr-2 h-4 w-4" />
+                      Código
+                    </a>
+                  </Button>*/

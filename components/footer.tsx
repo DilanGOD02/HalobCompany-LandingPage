@@ -16,28 +16,7 @@ export default function Footer() {
             <p className="text-gray-400 mt-4">
               Transformamos ideas en soluciones digitales innovadoras que impulsan el crecimiento de tu negocio.
             </p>
-            <div className="flex space-x-4 mt-6">
-              <a href="#" className="text-gray-400 hover:text-blue-500 transition-colors">
-                <Github className="h-5 w-5" />
-                <span className="sr-only">GitHub</span>
-              </a>
-              <a href="#" className="text-gray-400 hover:text-blue-500 transition-colors">
-                <Linkedin className="h-5 w-5" />
-                <span className="sr-only">LinkedIn</span>
-              </a>
-              <a href="#" className="text-gray-400 hover:text-blue-500 transition-colors">
-                <Twitter className="h-5 w-5" />
-                <span className="sr-only">Twitter</span>
-              </a>
-              <a href="#" className="text-gray-400 hover:text-blue-500 transition-colors">
-                <Instagram className="h-5 w-5" />
-                <span className="sr-only">Instagram</span>
-              </a>
-              <a href="#" className="text-gray-400 hover:text-blue-500 transition-colors">
-                <Facebook className="h-5 w-5" />
-                <span className="sr-only">Facebook</span>
-              </a>
-            </div>
+         
           </div>
 
           <div>
@@ -118,13 +97,13 @@ export default function Footer() {
               </li>
               <li className="text-gray-400">
                 <span className="block">Teléfono:</span>
-                <a href="tel:+12345678901" className="text-blue-400 hover:text-blue-300">
-                  +1 (234) 567-8901
+                <a href="tel:+50688955772" className="text-blue-400 hover:text-blue-300">
+                  +506 8895-5772 
                 </a>
               </li>
               <li className="text-gray-400">
                 <span className="block">Dirección:</span>
-                <span>Ciudad de Panamá, Panamá</span>
+                <span>Juan Luis, Jimenez, Costa Rica</span>
               </li>
             </ul>
           </div>
@@ -137,3 +116,28 @@ export default function Footer() {
     </footer>
   )
 }
+
+/*
+   <div className="flex space-x-4 mt-6">
+              <a href="#" className="text-gray-400 hover:text-blue-500 transition-colors">
+                <Github className="h-5 w-5" />
+                <span className="sr-only">GitHub</span>
+              </a>
+              <a href="#" className="text-gray-400 hover:text-blue-500 transition-colors">
+                <Linkedin className="h-5 w-5" />
+                <span className="sr-only">LinkedIn</span>
+              </a>
+              <a href="#" className="text-gray-400 hover:text-blue-500 transition-colors">
+                <Twitter className="h-5 w-5" />
+                <span className="sr-only">Twitter</span>
+              </a>
+              <a href="#" className="text-gray-400 hover:text-blue-500 transition-colors">
+                <Instagram className="h-5 w-5" />
+                <span className="sr-only">Instagram</span>
+              </a>
+              <a href="#" className="text-gray-400 hover:text-blue-500 transition-colors">
+                <Facebook className="h-5 w-5" />
+                <span className="sr-only">Facebook</span>
+              </a>
+            </div>
+            */

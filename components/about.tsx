@@ -52,9 +52,8 @@ export default function About() {
           </h2>
           <div className="w-20 h-1 bg-gradient-to-r from-blue-500 to-purple-600 mx-auto mb-8"></div>
           <p className="text-gray-300 max-w-3xl mx-auto text-lg">
-            Halob Company es una empresa de desarrollo de software especializada en crear soluciones digitales
-            innovadoras. Nuestro enfoque combina tecnología de vanguardia con diseño centrado en el usuario para ofrecer
-            experiencias digitales excepcionales.
+            Halob Company es una empresa joven y en crecimiento, especializada en desarrollo de software, donde nos dedicamos a crear soluciones digitales innovadoras con un enfoque en tecnología accesible y diseño centrado en el usuario.
+            Como equipo de juniors apasionados y en constante aprendizaje, combinamos entusiasmo, creatividad y las últimas herramientas tecnológicas para ofrecer experiencias digitales funcionales y bien estructuradas.
           </p>
         </motion.div>
 

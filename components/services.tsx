@@ -10,12 +10,7 @@ export default function Services() {
       title: "Desarrollo Web",
       description: "Creamos sitios web modernos, responsivos y optimizados para buscadores que destacan tu marca.",
     },
-    {
-      icon: <Smartphone className="h-12 w-12 text-purple-500" />,
-      title: "Aplicaciones Móviles",
-      description:
-        "Desarrollamos aplicaciones nativas y multiplataforma para iOS y Android con experiencias de usuario excepcionales.",
-    },
+ 
     {
       icon: <Database className="h-12 w-12 text-blue-500" />,
       title: "Bases de Datos",
