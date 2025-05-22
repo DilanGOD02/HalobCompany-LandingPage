@@ -34,7 +34,7 @@ export default function Team() {
     },
     {
       id: 3,
-      name: "Dilan Gutierrez",
+      name: "Dilan Gutiérrez",
       role: "Full Stack Developer",
       bio: "Desarrollo backend y bases de datos.",
       github: "https://github.com/DilanGOD02",
@@ -42,7 +42,7 @@ export default function Team() {
     },
     {
       id: 4,
-      name: "Jamel S. Anderson",
+      name: "Jamel Sandí",
       role: "Full Stack Developer",
       bio: "arquitectura de sistemas y bases de datos.",
       github: "https://github.com/Jamel-Sandi",
