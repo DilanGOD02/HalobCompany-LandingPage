@@ -59,8 +59,8 @@ export default function Contact() {
     {
       icon: <Mail className="h-6 w-6 text-purple-500" />,
       title: "Email",
-      details: "info@halobcompany.com",
-      link: "mailto:info@halobcompany.com",
+      details: "halobcompany@gmail.com",
+      link: "mailto:halobcompany@gmail.com",
     },
     {
       icon: <Phone className="h-6 w-6 text-blue-500" />,
