@@ -19,7 +19,7 @@ export default function Team() {
     {
       id: 1,
       name: "Daisy Cedeño",
-      role: "Frontend Developer",
+      role: "Full Stack Developer",
       bio: "Interfaces de usuario y experiencia de usuario.",
       github: "https://github.com/deyCedeno",
       avatar: "",
@@ -35,7 +35,7 @@ export default function Team() {
     {
       id: 3,
       name: "Dilan Gutierrez",
-      role: "Backend Developer",
+      role: "Full Stack Developer",
       bio: "Desarrollo backend y bases de datos.",
       github: "https://github.com/DilanGOD02",
       avatar: "",
@@ -43,7 +43,7 @@ export default function Team() {
     {
       id: 4,
       name: "Jamel S. Anderson",
-      role: "Mobile Developer",
+      role: "Full Stack Developer",
       bio: "arquitectura de sistemas y bases de datos.",
       github: "https://github.com/Jamel-Sandi",
       avatar: "",
