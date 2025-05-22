@@ -44,7 +44,7 @@ export default function Team() {
       id: 4,
       name: "Jamel Sandí",
       role: "Full Stack Developer",
-      bio: "arquitectura de sistemas y bases de datos.",
+      bio: "Arquitectura de sistemas, desarrollo backend y bases de datos.",
       github: "https://github.com/Jamel-Sandi",
       avatar: "",
     },
